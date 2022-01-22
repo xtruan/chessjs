@@ -25,6 +25,18 @@ $("#SetFen").click(function () {
 	newGameAjax();	 
 });
 
+$("#ShowInfoCheckbox").click(function () {
+	if (!$("#EngineOutput").is(":visible")) {
+		$('#EngineOutput').show();
+		$('#CurrentFenDiv').show();
+		$('#FenInDiv').show();
+    } else {
+		$('#EngineOutput').hide();
+		$('#CurrentFenDiv').hide();
+		$('#FenInDiv').hide();
+	}
+});
+
 function CheckResult() {
 
     if (brd_fiftyMove > 100) {

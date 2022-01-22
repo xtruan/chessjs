@@ -1,18 +1,6 @@
-#FenInDiv {
-	position: absolute;
-	top: 1000px;
-	left: 60px;
-	display: none;
-}
-
-#fenIn { 
-  width: 480px;
-  left: 60px;
-}
-
 #versionLink {
-	margin-left:10px;
-	font-size:small;
+	margin-left: 10px;
+	font-size: small;
 }
 
 #LoadingBook {
@@ -22,33 +10,55 @@
 	display: none;
 }
 
-#CurrentFenDiv {
-	position: absolute;
-	left: 60px;
-	top: 1000px;
-	margin-top: 40px;
-	display: none;
-}
-
 #Board {
 	position: relative;
 	left: 0px;
 	top: 0px;
 	width: 960px;
 	height: 960px;
-	border-style:solid;
-  border-width:2px;
+	border-style: solid;
+  	border-width: 2px;
+}
+
+#GameControls {
+	position: absolute;
+	top: 1000px;	
+	left: 60px;
+	font-size: medium;
 }
 
 #EngineOutput {
 	position: absolute;
-	top: 1000px;	
-	left: 100px;
+	top: 1100px;	
+	left: 60px;
+	font-size: medium;
+	display: none;
+}
+
+#CurrentFenDiv {
+	position: absolute;
+	top: 1180px;
+	left: 60px;
+	font-size: medium;
+	display: none;
+}
+
+#FenInDiv {
+	position: absolute;
+	top: 1260px;
+	left: 60px;
+	font-size: medium;
+	display: none;
+}
+
+#fenIn { 
+  width: 900px;
+  left: 60px;
 }
 
 #ThinkingImageDiv {
 	position: absolute;
-	top: 1200px;
+	top: 1400px;
 	left: 600px;
 	display: none;
 }
